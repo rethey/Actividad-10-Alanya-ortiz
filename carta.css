@@ -1,0 +1,24 @@
+.tarjeta {
+  border: 3px double #0099cc;
+  padding: 20px;
+  margin: 25px auto;
+  background-color: #e6f7ff;
+  width: 350px;
+  text-align: center;
+  color: green;
+  box-shadow: 20px 20px 20px blue;
+  font-family: "Sevillana";
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+
+h3.centrado{
+  text-align: center;
+  color: green;  
+}
+
+@font-face {
+    font-family: "sevillana";
+    src: url(fuente/Sevillana-Regular.ttf);
+}
+

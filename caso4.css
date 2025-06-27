@@ -1,0 +1,95 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .table-container {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            overflow: hidden; 
+        }
+
+        .tabla-destacada {
+            width: 100%;
+            border-collapse: collapse; 
+        }
+
+        .tabla-destacada th,
+        .tabla-destacada td {
+            padding: 15px 20px; 
+            text-align: center;
+            border: 1px solid #eee; 
+        }
+
+        .tabla-destacada thead th {
+            background-color: #dfdfdf; 
+            font-size: 16px;
+            font-weight: bold;
+            color: #555;
+            border-bottom: 2px solid #ddd; 
+        }
+
+        .tabla-destacada tbody tr:nth-child(1) td {
+            background-color: #dfdfdf;
+        }
+
+        .tabla-destacada tbody tr:nth-child(2) td {
+            background-color: #dfdfdf;
+        }
+
+        .tabla-destacada tbody tr:nth-child(3) td {
+            background-color: #dfdfdf;
+        }
+
+        .tabla-destacada thead th:last-child,
+        .tabla-destacada tbody td:last-child,
+        .tabla-destacada tfoot td:last-child {
+            background-color: #a4fa9c !important; 
+            color: #0f0d07;
+            font-weight: bold;
+        }
+    
+        .tabla-destacada th:last-child,
+        .tabla-destacada td:last-child {
+            border-left: 1px solid #c3e6cb; 
+        }
+        
+        .icon-check {
+            content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%2328a745" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>');
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        .icon-x {
+            content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23dc3545" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>');
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            vertical-align: middle;
+        }
+
+        .tabla-destacada tfoot td {
+            background-color: #dfdfdf;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-top: 2px solid #ddd; 
+        }
+
+        .tabla-destacada tfoot td:last-child {
+            background-color: #a4fa9c; 
+            color: #000000; 
+        }

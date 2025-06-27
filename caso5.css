@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+#div1, #div2, #div3 {
+    width: 240px;
+    height: 300px;
+    margin: 18px;
+    padding: 8px;
+    border: 3px solid blue;
+    overflow: hidden; 
+}
+
+
+#div1 {
+    line-height: 1.05; 
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+#div1 span {
+    font-size: 18px;
+    text-shadow: 2px 2px 0 red; 
+}
+
+
+#div2 {
+    line-height: 1.1;
+}
+
+#div2 span {
+    font-size: 18px;
+    text-shadow: -2px 2px 0 blue; 
+}
+
+
+#div3 {
+    text-align: justify;
+    color: #8B4513;
+    line-height: 1.2; 
+}
+
+#div3 span {
+    font-size: 18px;
+    text-shadow: 2px 2px 5px green;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Vertical con Botones</title>
+    <style>
+      body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #CC5E5E;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        min-height: 100vh;
+        box-sizing: border-box;
+      }
+      h1 {
+        color: rgb(5, 2, 2);
+        font-size: 28px;
+        margin-bottom: 30px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      .vertical-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+      }
+      .vertical-menu li {
+        margin-bottom: 10px;
+      }
+      .vertical-menu a {
+        display: block;
+        padding: 10px 25px;
+        background-color: #6A1A4E;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.1s ease;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        width: 120px;
+      }
+      .vertical-menu a:hover {
+        background-color: #55143E;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        transform: translateY(-2px);
+      }
+      .vertical-menu a:active {
+        background-color: #4A1038;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        transform: translateY(1px);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>navbar maquetado con HTML y CSS</h1>
+    <ul class="vertical-menu">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">FOTOS</a></li>
+      <li><a href="#">MURO</a></li>
+      <li><a href="#">LINKS</a></li>
+    </ul>
+  </body>
+</html>
